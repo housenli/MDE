@@ -12,6 +12,15 @@ The codes rely on the following packages:
 - **CurveLab** from http://www.curvelet.org
 - **Wavelab850** from https://statweb.stanford.edu/~wavelab/
 
-For the first time, one has to mex some files as follows (assuming we are in the MDE root folder). 
+If a computer is MAC or Windows PC, then the complied mex files may probably work without re-compiling. Otherwise, one has to run first (assuming we are in the root folder of MDE)
+> cd('./cubes')
+> mex -Dchar16_t=UINT16_T mrcoefCube_mex.c
+> mex -Dchar16_t=UINT16_T mrdualCube_mex.c
+> cd('..')
+
+Moreover, we need to run (assuming we are in the root folder of MDE)
+> addpath(genpath('./'))
+
+## Overview
 
 
