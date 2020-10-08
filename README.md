@@ -1,8 +1,12 @@
 # MDE
-This implements *Multiscale Dantzig Estimator (MDE)* in nonparametric regression (or denoising). 
+This implements *Multiscale Dantzig Estimator (MDE)* in nonparametric regression (or denoising). MDE minimizes a general regularization term under certain multiscale constraints in terms of dictionaries. It is a collection of methods, includes 
+-  
+- 
+- 
+- 
 
 
-For more details about MDE please see 
+The implementation works exclusively for 2D case, and utilizes the [Chambolle-Pock algorithm](https://link.springer.com/article/10.1007/s10851-010-0251-1). For more details about the algorithm for computing MDE please see 
 
 % cite our paper here
 
