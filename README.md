@@ -1,2 +1,2 @@
-# Multiscale Dantzig Estimator (MDE) in Nonparametric Regression
+# MDE
 Multiscale Dantzig Estimator (MDE) in Nonparametric Regression
