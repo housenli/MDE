@@ -12,7 +12,9 @@ The codes rely on the following packages:
 - **CurveLab** from http://www.curvelet.org
 - **Wavelab850** from https://statweb.stanford.edu/~wavelab/
 
-If a computer is MAC or Windows PC, then the complied mex files may probably work without re-compiling. Otherwise, one has to run first (assuming we are in the root folder of MDE)
+Assume we are in the root folder of MDE. 
+
+If a computer is MAC or Windows PC, then the complied mex files may probably work without re-compiling. Otherwise, one has to run first
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  cd('./cubes')   
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  mex -Dchar16_t=UINT16_T mrcoefCube_mex.c  
@@ -20,7 +22,7 @@ If a computer is MAC or Windows PC, then the complied mex files may probably wor
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  cd('..')  
 
 
-Moreover, we need to run (assuming we are in the root folder of MDE)
+Moreover, we need to run 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; addpath(genpath('./'))
 
