@@ -10,7 +10,7 @@ The implementation works exclusively for 2D case, and utilizes the [Chambolle-Po
 % cite our paper here
 
 ## Installation
-The codes rely on the following packages:
+The codes require the following packages:
 - **ShearLab3D** from http://shearlab.math.lmu.de
 - **CurveLab** from http://www.curvelet.org
 - **Wavelab850** from https://statweb.stanford.edu/~wavelab/
