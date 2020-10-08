@@ -19,7 +19,9 @@ If a computer is MAC or Windows PC, then the complied mex files may probably wor
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  mex -Dchar16_t=UINT16_T mrdualCube_mex.c  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  cd('..')  
 
+
 Moreover, we need to run (assuming we are in the root folder of MDE)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; addpath(genpath('./'))
 
 ## Overview
