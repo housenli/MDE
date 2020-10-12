@@ -1,4 +1,4 @@
-# MDE
+# MDE_v0.1
 This implements *Multiscale Dantzig Estimator (MDE)* in nonparametric regression (or denoising). MDE minimizes a general regularization term under certain multiscale constraints in terms of dictionaries. It is a collection of methods, includes 
 -  del Alamo, M., Li, H., & Munk, A. (2018). Frame-constrained total variation regularization for white noise regression. arXiv preprint [arXiv:1807.02038](https://arxiv.org/abs/1807.02038).
 -  Grasmair, M., Li, H., & Munk, A. (2018). Variational multiscale nonparametric regression: Smooth functions. In Annales de l'Institut Henri Poincaré, Probabilités et Statistiques ([Vol. 54, No. 2, pp. 1058-1097](https://projecteuclid.org/euclid.aihp/1524643240)). Institut Henri Poincaré.
