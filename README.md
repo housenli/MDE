@@ -35,3 +35,7 @@ and load toolboxes **ShearLab3D**, **CurveLab** and **Wavelab850**.
 
 Examples, as well as experiments in our paper \[1\], can be run with the file [example.m](https://github.com/housenli/MDE/blob/main/example.m). 
 
+## Acknowledgement
+
+The codes for proximity operator of total variation seminorm are built from those by [Markus Grasmair](https://www.ntnu.edu/employees/markus.grasmair) (NTNU).
+The encapsule of Wavelet class is from [Michael Lustig](https://www2.eecs.berkeley.edu/Faculty/Homepages/mlustig.html) (UC Berkeley).
