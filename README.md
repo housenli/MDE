@@ -29,7 +29,7 @@ Moreover, we need to run
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; addpath(genpath('./'))
 
-and load toolboxes ShearLab3D, CurveLab and Wavelab850
+and load toolboxes **ShearLab3D**, **CurveLab** and **Wavelab850**.
 
 ## Example
 
