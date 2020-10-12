@@ -10,7 +10,7 @@ The implementation works exclusively for 2D case, and utilizes the [Chambolle-Po
 \[1\] del Alamo, M., Li, H., Munk, A., & Werner, F. (2020+). Variational multiscale nonparametric regression: Algorithms. In submission.
 
 ## Installation
-The codes require the following packages:
+The codes require the following toolboxes:
 - **ShearLab3D** from http://shearlab.math.lmu.de
 - **CurveLab** from http://www.curvelet.org
 - **Wavelab850** from https://statweb.stanford.edu/~wavelab/
@@ -28,6 +28,8 @@ If a computer is MAC or Windows PC, then the complied mex files may probably wor
 Moreover, we need to run 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; addpath(genpath('./'))
+
+and load toolboxes ShearLab3D, CurveLab and Wavelab850
 
 ## Example
 
