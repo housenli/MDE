@@ -31,5 +31,5 @@ Moreover, we need to run
 
 ## Example
 
-Examples, as well as experiments in our paper \[1\], can be run with the file *example.m*. 
+Examples, as well as experiments in our paper \[1\], can be run with the file [example.m](https://github.com/housenli/MDE/blob/main/example.m). 
 
