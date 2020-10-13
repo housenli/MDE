@@ -25,7 +25,7 @@ end
 %       Variational multiscale nonparametric regression: Algorithms. 
 %       In submission.
 %
-% All experiments are reproduciable by modifying the following codes
+% All experiments are reproducible by modifying the following codes
 
 % Add path of 'MDE' and subfolders
 % Import toolboxes 'ShearLab3D', 'CurveLab' and 'Wavelab850'
