@@ -44,6 +44,9 @@ sigma = 1/snr;
 rng('default'); rng(123);
 Xnoisy = X + sigma*randn(size(X));
 
+% Estimate noise level
+sgmh = stdIm(Xnoisy);
+
 % Regularization
 rPar.type = 'TV'; % 'Hk'
 
@@ -56,7 +59,7 @@ mPar.type      = 'cube';
 mPar.cubeType  = 'manual';
 mPar.cubeParam = cube;
 th   = msQuantile(sz, alpha, [], mPar);
-Xrec = multiscale(Xnoisy, sigma*th, [], mPar, rPar);
+Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
 % MDE: small cubes
 cube = scale2cube(1:30, sz);
@@ -65,21 +68,21 @@ mPar.type      = 'cube';
 mPar.cubeType  = 'manual';
 mPar.cubeParam = cube;
 th   = msQuantile(sz, alpha, [], mPar);
-Xrec = multiscale(Xnoisy, sigma*th, [], mPar, rPar);
+Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
 % MDE: wavelet
 mPar.type      = 'wavelet';
 th   = msQuantile(sz, alpha, [], mPar);
-Xrec = multiscale(Xnoisy, sigma*th, [], mPar, rPar);
+Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
 % MDE: curvelet
 mPar.type      = 'curvelet';
 th   = msQuantile(sz, alpha, [], mPar);
-Xrec = multiscale(Xnoisy, sigma*th, [], mPar, rPar);
+Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
 % MDE: shearlet
 mPar.type      = 'shearlet';
 th   = msQuantile(sz, alpha, [], mPar);
-Xrec = multiscale(Xnoisy, sigma*th, [], mPar, rPar);
+Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
 
