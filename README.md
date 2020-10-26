@@ -38,4 +38,4 @@ Examples, as well as experiments in our paper \[1\], can be run with the file [e
 ## Acknowledgement
 
 The codes for proximity operator of total variation seminorm are built from those by [Markus Grasmair](https://www.ntnu.edu/employees/markus.grasmair) (NTNU).
-The encapsule of Wavelet class is from [Michael Lustig](https://www2.eecs.berkeley.edu/Faculty/Homepages/mlustig.html) (UC Berkeley). One approach of noise level estimation is from [Masayuki Tanaka](http://www.ok.sc.e.titech.ac.jp/~mtanaka/) (Tokyo Institute of Technology).
+The encapsule of Wavelet class is from [Michael Lustig](https://www2.eecs.berkeley.edu/Faculty/Homepages/mlustig.html) (UC Berkeley). The codes for one approach of noise level estimation is from [Masayuki Tanaka](http://www.ok.sc.e.titech.ac.jp/~mtanaka/) (Tokyo Institute of Technology).
