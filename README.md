@@ -5,7 +5,7 @@ This implements *Multiscale Dantzig Estimator (MDE)* in nonparametric regression
 - Frick, K., Marnitz, P., & Munk, A. (2013). Statistical multiresolution estimation for variational imaging: with an application in Poisson-biophotonics. Journal of Mathematical Imaging and Vision, [46(3), 370-387](https://link.springer.com/article/10.1007/s10851-012-0368-5).
 - Frick, K., Marnitz, P., & Munk, A. (2012). Statistical multiresolution Dantzig estimation in imaging: Fundamental concepts and algorithmic framework. Electronic Journal of Statistics, [6, 231-268](https://projecteuclid.org/euclid.aihp/1524643240).
 
-The implementation works exclusively for 2D case, and utilizes the [Chambolle-Pock algorithm](https://link.springer.com/article/10.1007/s10851-010-0251-1). For more details, please see 
+The implementation works exclusively for 2D grayscale images, and utilizes the [Chambolle-Pock algorithm](https://link.springer.com/article/10.1007/s10851-010-0251-1). For more details, please see 
 
 \[1\] del Alamo, M., Li, H., Munk, A., & Werner, F. (2020+). Variational multiscale nonparametric regression: Algorithms. In submission.
 
