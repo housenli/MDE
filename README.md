@@ -7,7 +7,7 @@ This implements *Multiscale Dantzig Estimator (MDE)* in nonparametric regression
 
 The implementation works exclusively for 2D grayscale images, and utilizes the [Chambolle-Pock algorithm](https://link.springer.com/article/10.1007/s10851-010-0251-1). For more details, please see 
 
-\[1\] del Alamo, M., Li, H., Munk, A., & Werner, F. (2020+). Variational multiscale nonparametric regression: Algorithms. In submission. [arXiv:2010.10660](https://arxiv.org/abs/2010.10660)
+\[1\] del Alamo, M., Li, H., Munk, A., & Werner, F. (2020+). Variational multiscale nonparametric regression: Algorithms. In submission (arXiv preprint [arXiv:2010.10660](https://arxiv.org/abs/2010.10660)).
 
 ## Installation
 The codes require the following toolboxes:
