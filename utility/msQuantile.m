@@ -28,7 +28,7 @@ if nargin < 2 || isempty(alpha), alpha = 0.9; end
 if nargin < 3, sPar  = []; end
 if nargin < 4, mPar  = []; end   
 %       parameters of other simulation parameters
-base = [fileparts(mfilename('fullpath')), filesep, 'auxStorage'];
+base = [fileparts(mfilename('fullpath')), filesep, '..', 'auxStorage'];
 if isfield(sPar, 'nDraw'),  nDraw  = sPar.nDraw;  else, nDraw  = 5e3;  end
 if isfield(sPar, 'seed'),   seed   = sPar.seed;   else, seed   = 100;  end
 if isfield(sPar, 'loc'),    loc    = sPar.loc;    else, loc    = base; end
