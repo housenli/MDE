@@ -3,7 +3,7 @@ function [ sigma ] = stdIm( im, type )
 %   sigma = stdIm(im)
 %   sigma = stdIm(im, 'od2')
 
-if nargin < 2, type = 'od1'; end
+if nargin < 2, type = 'OD1'; end
 
 sumall = @(x) sum(x(:));
 switch type
