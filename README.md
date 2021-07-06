@@ -1,6 +1,7 @@
 # MIND
 This implements *MultIscale Nemirowski-Dantzig (MIND)* estimator in nonparametric regression (or denoising). MIND minimizes a general regularization term under certain multiscale constraints in terms of dictionaries. It is a collection of methods, includes 
--  del Alamo, M., Li, H., & Munk, A. (2020+). Frame-constrained total variation regularization for white noise regression. The Annals of Statistics, to appear (arXiv preprint [arXiv:1807.02038](https://arxiv.org/abs/1807.02038)).
+-  Haltmeier, M., Li, H., & Munk, A. (2021+). A variational view on statistical multiscale estimation. Annual Review of Statistics and Its Application, to appear (arXiv preprint [arXiv:2106.05828](https://arxiv.org/abs/2106.05828))
+-  del Alamo, M., Li, H., & Munk, A. (2021). Frame-constrained total variation regularization for white noise regression. The Annals of Statistics, to appear (arXiv preprint [arXiv:1807.02038](https://arxiv.org/abs/1807.02038)).
 -  Grasmair, M., Li, H., & Munk, A. (2018). Variational multiscale nonparametric regression: Smooth functions. In Annales de l'Institut Henri Poincaré, Probabilités et Statistiques ([Vol. 54, No. 2, pp. 1058-1097](https://projecteuclid.org/euclid.aihp/1524643240)). Institut Henri Poincaré.
 - Frick, K., Marnitz, P., & Munk, A. (2013). Statistical multiresolution estimation for variational imaging: with an application in Poisson-biophotonics. Journal of Mathematical Imaging and Vision, [46(3), 370-387](https://link.springer.com/article/10.1007/s10851-012-0368-5).
 - Frick, K., Marnitz, P., & Munk, A. (2012). Statistical multiresolution Dantzig estimation in imaging: Fundamental concepts and algorithmic framework. Electronic Journal of Statistics, [6, 231-268](https://projecteuclid.org/euclid.aihp/1524643240).
