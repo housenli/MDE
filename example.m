@@ -1,5 +1,5 @@
 %% Test installation
-% Add path of 'MDE' and subfolders
+% Add path of 'MIND' and subfolders
 % Import toolboxes 'ShearLab3D', 'CurveLab' and 'Wavelab850'
 sz     = [256, 256];
 X      = zeros(sz);
@@ -21,13 +21,13 @@ end
 
 %% Experiments in the paper
 %
-%     del Alamo, M., Li, H., Munk, A., & Werner, F. (2020+). 
-%       Variational multiscale nonparametric regression: Algorithms. 
-%       In submission.
+%     del Alamo, M., Li, H., Munk, A., & Werner, F. (2020). 
+%       Variational multiscale nonparametric regression: Algorithms and Implementation.
+%       Algorithms, 13(11), 296
 %
 % All experiments are reproducible by modifying the following codes
 
-% Add path of 'MDE' and subfolders
+% Add path of 'MIND' and subfolders
 % Import toolboxes 'ShearLab3D', 'CurveLab' and 'Wavelab850'
 
 % Images
@@ -53,7 +53,7 @@ rPar.type = 'TV'; % 'Hk'
 % Significance level for threshold
 alpha = 0.5;
 
-% MDE: dyadic cubes
+% MIND: dyadic cubes
 cube  = pPartitionCube(size(X), 2);
 mPar.type      = 'cube';
 mPar.cubeType  = 'manual';
@@ -61,7 +61,7 @@ mPar.cubeParam = cube;
 th   = msQuantile(sz, alpha, [], mPar);
 Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
-% MDE: small cubes
+% MIND: small cubes
 cube = scale2cube(1:30, sz);
 mPar.cubeParam = cube;
 mPar.type      = 'cube';
@@ -70,17 +70,17 @@ mPar.cubeParam = cube;
 th   = msQuantile(sz, alpha, [], mPar);
 Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
-% MDE: wavelet
+% MIND: wavelet
 mPar.type      = 'wavelet';
 th   = msQuantile(sz, alpha, [], mPar);
 Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
-% MDE: curvelet
+% MIND: curvelet
 mPar.type      = 'curvelet';
 th   = msQuantile(sz, alpha, [], mPar);
 Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
 
-% MDE: shearlet
+% MIND: shearlet
 mPar.type      = 'shearlet';
 th   = msQuantile(sz, alpha, [], mPar);
 Xrec = multiscale(Xnoisy, sgmh*th, [], mPar, rPar);
